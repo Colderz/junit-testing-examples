@@ -11,10 +11,11 @@ android {
 
     defaultConfig {
         applicationId "pakiet.arkadiuszzimny.unit_testing_1"
-        minSdkVersion 21
+        minSdkVersion 26
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
+        buildConfigField("String", "API_KEY", API_KEY)
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
